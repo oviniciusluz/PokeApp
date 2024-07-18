@@ -6,4 +6,12 @@ module.exports = {
     "prettier/prettier": "error",
     "react/display-name": "off",
   },
+  overrides: [
+    {
+      files: ["src/**/*.{js,jsx,ts,tsx}"],
+      rules: {},
+    },
+  ],
+  ignorePatterns: ["node_modules/", "dist/", "build/"],
 };
+
